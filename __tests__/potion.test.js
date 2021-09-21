@@ -1,11 +1,5 @@
 const Potion=require('../lib/Potion.js');
 
-// test('creates a health position object',()=>{
-//     const potion=new Potion('health');
-
-//     expect(potion.name).toBe('health');
-//     expect(potion.value).toEqual(expect.any(Number));
-// })
 
 test('create a random position object',()=>{
     const potion=new Potion();
